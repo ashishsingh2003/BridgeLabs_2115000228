@@ -4,8 +4,9 @@ public class FrequentChar{
 		Scanner sc=new Scanner(System.in);
 		String str1=sc.next();
 	    
-		StringBuilder sb=new StringBuilder();
+		
 		int maxi=0;
+		int index=0;
 		boolean flag[]=new boolean[str1.length()];
 		
 		for(int i=0;i<str1.length();i++)
@@ -21,13 +22,12 @@ public class FrequentChar{
 			}
 			if(maxi<cnt)
 			{
-				sb.delete(0,str1.length());
-				sb.append(str1.charAt(i));
+				index=i;
 				maxi=cnt;
 			}
 		
 		}
-		System.out.print("The most frequent character is "+sb);
+		System.out.print("The most frequent character is "+str1.charAt(index));
 		
 			
 	}

@@ -3,13 +3,12 @@ public class Palindrome{
 	public static void main(String[] args){
 		Scanner sc=new Scanner(System.in);
 		String str=sc.nextLine();
-	    StringBuilder sb=new StringBuilder();
+	    String str2="";
 		for(int i=str.length()-1;i>=0;i--){
-			char ch=str.charAt(i);
-			sb.append(ch);
+			str2+=str.charAt(i);
 		}
 		
-		if(str.equals(sb.toString()))
+		if(str.equals(str2))
 		{
 			System.out.print("Palindrome");
 		}

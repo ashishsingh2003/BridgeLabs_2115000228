@@ -3,22 +3,46 @@ public class LongestWord{
 	public static void main(String[] args){
 		Scanner sc=new Scanner(System.in);
 		String str=sc.nextLine();
-	    StringBuilder sb=new StringBuilder();
-		String st[]=str.split(" ");
-		boolean flag[]=new boolean[st.length];
+		String str2="";
 		int maxi=Integer.MIN_VALUE;
+		int cnt=0;
+		int i=0;
+		int j=0;
+		int ind1=0;
+		int ind2=0;
 		
-		for(int i=0;i<st.length;i++){
-			String s=st[i];
-			if(maxi<s.length())
+		while(j<str.length())
+		{
+			if(str.charAt(j)==' ')
 			{
-				sb.delete(0,sb.length());
-				sb.append(s);
+				if(maxi<j-i)
+				{
+					maxi=j-i;
+					ind1=i;
+					ind2=j-1;
+					
+				}
+				i=j+1;
+				j=i;
+				continue;
 			}
-			
-			
+			else{
+				j++;
+			}
+				
+				
 		}
-		System.out.print(sb);
+		if(maxi<j-i)
+		{
+			maxi=j-i;
+			ind1=i;
+			ind2=j-1;
+		}
+        for( i=ind1;i<=ind2;i++)
+		{
+			str2+=str.charAt(i);
+		}
+		System.out.print(str2);
 		
 			
 	}

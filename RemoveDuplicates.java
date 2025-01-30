@@ -3,27 +3,25 @@ public class RemoveDuplicates{
 	public static void main(String[] args){
 		Scanner sc=new Scanner(System.in);
 		String str=sc.nextLine();
-	    StringBuilder sb=new StringBuilder(str);
-		StringBuilder ans=new StringBuilder();
-		sb.reverse();
-		
-		for(int i=0;i<sb.length();i++){
-			char c1=sb.charAt(i);
-			int cnt=0;
-			for(int j=i+1;j<sb.length();j++){
-				char c2=sb.charAt(j);
-				if(c1==c2)
+		String ans="";
+	    boolean flag[]=new boolean[str.length()];
+		for(int i=0;i<str.length();i++)
+		{
+			if(flag[i]==false)
+			{
+				flag[i]=true;
+				ans+=str.charAt(i);
+				for(int j=i+1;j<str.length();j++)
 				{
-					cnt++;
+					if(str.charAt(i)==str.charAt(j))
+					{
+						flag[j]=true;
+					}
 				}
-            }
-			if(cnt==0){
-				ans.append(c1);
 			}
-			
 		}
-		ans.reverse();
+		
+		
 		System.out.print(ans);
-			
+	}	
 	}
-}

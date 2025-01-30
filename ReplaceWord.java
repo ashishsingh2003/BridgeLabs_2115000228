@@ -4,8 +4,7 @@ public class ReplaceWord {
         if (sentence == null || oldWord == null || newWord == null || oldWord.isEmpty()) {
             return sentence;
         }
-
-        StringBuilder result = new StringBuilder();
+        String result="";
         int i = 0;
         int len = sentence.length();
         int wordLen = oldWord.length();
@@ -16,10 +15,10 @@ public class ReplaceWord {
                 (i == 0 || !Character.isLetterOrDigit(sentence.charAt(i - 1))) &&
                 (i + wordLen == len || !Character.isLetterOrDigit(sentence.charAt(i + wordLen)))) {
 
-                result.append(newWord);  // Replace oldWord with newWord
+                result+=newWord;  // Replace oldWord with newWord
                 i += wordLen;  // Move index past the old word
             } else {
-                result.append(sentence.charAt(i));  // Append character as is
+                result+=sentence.charAt(i);  // Append character as is
                 i++;
             }
         }

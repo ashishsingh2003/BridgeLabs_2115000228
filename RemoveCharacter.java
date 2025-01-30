@@ -5,16 +5,16 @@ public class RemoveCharacter{
 		String s=sc.nextLine();
 		String str=sc.next();
 	    char ch=str.charAt(0);
-		StringBuilder sb=new StringBuilder();
+		String st="";
 		for(int i=0;i<s.length();i++)
 		{
 			if(s.charAt(i)!=ch)
 			{
-				sb.append(s.charAt(i));
+				st+=s.charAt(i);
 			}
 				
 		}
-		System.out.print(sb);
+		System.out.print(st);
 		
 			
 	}
