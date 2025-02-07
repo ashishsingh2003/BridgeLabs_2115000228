@@ -87,26 +87,26 @@ Completed Assisted Problems & Self Problems (Assignment-1)
    - Java Standard Library Methods: Exploring commonly used methods from the Java Standard Library.
    - Math Class: Learning about the methods available in the Math class for mathematical operations.
    - Random Class-For Generating Random Numbers.
-OB   
+   
 
 2. Practice
    - Level 1 Problems: Solved introductory problems to apply static method concepts.
-OB
+
 
 ## Task 9: DATE: 29-01-2025
 - String Handling in Java
   - String Methods: Studied various methods available for string manipulation in Java.
   - String Handling Concepts: Explored fundamental concepts related to handling strings effectively.
-OB  - String Problems: Solved problem statements focused on applying string methods and handling techniques.
+  - String Problems: Solved problem statements focused on applying string methods and handling techniques.
 
 ## Task 10: DATE: 30-01-2025
 - Built-in String Methods and Exception Handling
   - String Built-in Methods: Learned about built-in methods for string operations in Java.
   - Exception Handling: Studied the types and mechanisms of exception handling in Java.
-OB  - Type 1 Problems: Solved problems using built-in functions, including date and time operations.
+  - Type 1 Problems: Solved problems using built-in functions, including date and time operations.
   - Type 2 Problems: Engaged in problem-solving exercises involving concepts like palindrome checks and Fibonacci sequences.
 
-OB## Task 11: DATE: 31-01-2025
+## Task 11: DATE: 31-01-2025
 1. Object-Oriented Programming (OOP) in Java
    - OOP Overview: Gained an understanding of the principles and advantages of OOP.
    - Comparison: Compared procedural programming with object-oriented programming.
@@ -114,6 +114,7 @@ Completed Assisted Problems & Self Problems (Assignment-1)
    - Java Class: Studied the structure and purpose of classes in Java.
    - Java Object: Learned about creating and using objects in Java.
 3. Practice
+<<<<<<< HEAD
 OB   - Level 1 Problems: Practiced problems focusing on the application of OOP concepts, specifically classes and objects.
 
 Task-12: Date 6-02-2025
@@ -121,3 +122,18 @@ Task-12: Date 6-02-2025
     -Learned concepts of compositon,aggregation,association,class diagram,object diagram and sequence diagram.
   2.Practice
     -practiced problems on compositon,aggregation,association,class diagram,object diagram and sequence diagram.
+=======
+  - Level 1 Problems: Practiced problems focusing on the application of OOP concepts, specifically classes and objects.
+
+##Task 11 DATE:2-02-2025
+1. Java Constructors,instance variables,class variables and access modifiers.
+   -learned the concept of constructors,instance variable, class variable and access modifiers.
+2. Practice
+   -Level 1 Problems: Practiced problems on constructors,class variables,instance variables and access modifiers.
+
+##Task 12 DATE:4-02-2025
+1. Static keyword,final keyword and This keyword.
+   -learned the concept of Static keyword, final keyword and This keyword.
+2. Practice
+   -Level 1 Problems: Practiced problems on static,final, and This keyword.
+>>>>>>> 0e80a46945e8242b70476d34dc8fabbbea38620e
