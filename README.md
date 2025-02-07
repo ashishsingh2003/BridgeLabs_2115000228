@@ -133,3 +133,11 @@ Completed Assisted Problems & Self Problems (Assignment-1)
      -Learned concepts of compositon,aggregation,association,class diagram,object diagram and sequence diagram.
   2. Practice
      -practiced problems on compositon,aggregation,association,class diagram,object diagram and sequence diagram.
+
+##Task-15 Date: 7-02-2025
+  1. Inheritance:
+        -learned different types of inheritance like single,multilevel,multiple,hierarichal and hybrid.
+  2. Practice
+        -practiced problems on single,multilevel,multiple,hierarichal and hybrid.
+
+
