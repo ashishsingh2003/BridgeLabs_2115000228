@@ -114,26 +114,22 @@ Completed Assisted Problems & Self Problems (Assignment-1)
    - Java Class: Studied the structure and purpose of classes in Java.
    - Java Object: Learned about creating and using objects in Java.
 3. Practice
-<<<<<<< HEAD
-OB   - Level 1 Problems: Practiced problems focusing on the application of OOP concepts, specifically classes and objects.
+   - Level 1 Problems: Practiced problems focusing on the application of OOP concepts, specifically classes and objects.
 
-Task-12: Date 6-02-2025
-  1.Object Oriented Design:
-    -Learned concepts of compositon,aggregation,association,class diagram,object diagram and sequence diagram.
-  2.Practice
-    -practiced problems on compositon,aggregation,association,class diagram,object diagram and sequence diagram.
-=======
-  - Level 1 Problems: Practiced problems focusing on the application of OOP concepts, specifically classes and objects.
-
-##Task 11 DATE:2-02-2025
+##Task 12 DATE:2-02-2025
 1. Java Constructors,instance variables,class variables and access modifiers.
    -learned the concept of constructors,instance variable, class variable and access modifiers.
 2. Practice
    -Level 1 Problems: Practiced problems on constructors,class variables,instance variables and access modifiers.
 
-##Task 12 DATE:4-02-2025
+##Task 13 DATE:4-02-2025
 1. Static keyword,final keyword and This keyword.
    -learned the concept of Static keyword, final keyword and This keyword.
 2. Practice
    -Level 1 Problems: Practiced problems on static,final, and This keyword.
->>>>>>> 0e80a46945e8242b70476d34dc8fabbbea38620e
+   
+##Task-14: Date 6-02-2025
+  1.Object Oriented Design:
+    -Learned concepts of compositon,aggregation,association,class diagram,object diagram and sequence diagram.
+  2.Practice
+    -practiced problems on compositon,aggregation,association,class diagram,object diagram and sequence diagram.
