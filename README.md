@@ -115,3 +115,9 @@ Completed Assisted Problems & Self Problems (Assignment-1)
    - Java Object: Learned about creating and using objects in Java.
 3. Practice
 OB   - Level 1 Problems: Practiced problems focusing on the application of OOP concepts, specifically classes and objects.
+
+Task-12: Date 6-02-2025
+  1.Object Oriented Design:
+    -Learned concepts of compositon,aggregation,association,class diagram,object diagram and sequence diagram.
+  2.Practice
+    -practiced problems on compositon,aggregation,association,class diagram,object diagram and sequence diagram.
