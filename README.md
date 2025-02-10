@@ -140,4 +140,8 @@ Completed Assisted Problems & Self Problems (Assignment-1)
   2. Practice
         -practiced problems on single,multilevel,multiple,hierarichal and hybrid.
 
-
+##Task-16 Date: 10-02-2025
+  1. Encapsulation and Polymorphism:
+            -learned concepts of encapsulation and Polymorphism.
+  2. Practice:
+            -practiced problems on encapsulation and polymorphism.
