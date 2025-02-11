@@ -145,3 +145,8 @@ Completed Assisted Problems & Self Problems (Assignment-1)
             -learned concepts of encapsulation and Polymorphism.
   2. Practice:
             -practiced problems on encapsulation and polymorphism.
+##Task-17 Date:11-02-2025
+  1. LinkedList
+            -learned linked list and types of linked list such as single, doubly and circular linked list.
+  2. Practice
+            -practiced problems on single,doubly and circular linked list.
